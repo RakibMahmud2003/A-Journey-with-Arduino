@@ -14,7 +14,7 @@ void setup()
   
   
   for(i = 0;i<5;i++){
-    for(j = i+1; j<6 ; j++){
+    for(j = i+1; j<5 ; j++){
       if(array[i]>array[j]){
         temp = array[i];
         array[i] = array[j];
